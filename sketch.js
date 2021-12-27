@@ -68,8 +68,8 @@ function draw() {
   py5.display(rgb(110, 71, 102), "cyan")
   py6.display(rgb(251, 189, 76), "cyan")
   sling.display("green");
-  stand1.display();
-  stand2.display();
+  stand1.display(5);
+  stand2.display(5);
   ball.display("blue", "red");
  
   fill("orange");
